@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149012404.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow for a card-like effect */
+    border-radius: 10px; /* Add rounded corners for the container */
+}
+
+input{
+    margin-top: 20px;
+}
+
+/* style.css */
+/* ... (previous styles) */
+
+/* Add this CSS for the button */
+#result {
+    width: 100%;
+    padding: 10px; /* Add some padding for better visual appearance */
+    margin-top: 10px; /* Add some space between the inputs and the button */
+    background-color: #4CAF50; /* Set a background color for the button */
+    color: white; /* Set text color to white */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add a hover effect for the button */
+#result:hover {
+    background-color: #45a049; /* Darken the color on hover */
+}
+
